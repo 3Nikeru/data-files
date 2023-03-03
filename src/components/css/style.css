@@ -1,5 +1,8 @@
 .link{
-    float: left;
     margin: 0 0 10px 10px;
     color: #000;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 40px;
 }
