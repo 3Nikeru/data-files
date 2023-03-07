@@ -21,7 +21,7 @@ const FolderThree = () =>{
     return(
         <>
           <h1>Folder Three</h1>
-          <Link to='/' className="link"><ArrowLeftOutlined /></Link>
+          <Link to='/data-files' className="link"><ArrowLeftOutlined /></Link>
           {(folder_data !== undefined) ? 
            <Card>
              <Table dataSource={folder_data} onChange={onChange} defaultSortOrder={sortOrder} 
